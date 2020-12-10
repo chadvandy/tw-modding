@@ -1,19 +1,40 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: About
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+<!--StartFragment-->
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+This website is maintained by Vandy, operated and written by the community at large.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+I decided to go about and make this website because of the lack of unification between various modder resources. Over the course of the past couple of years, the folks at the Modding Den Discord channel have worked together and produced some nice community resources, written and shared tutorials, and overall tried to just communitize (it’s a word now) knowledge. This website is a natural extension of that desire to get the most knowledge in the smallest acreage.
+
+
+
+Please bear with me as I work on this website – it’s in a very early iteration, and I’m very much still learning how to work all of this stuff out, from appearance to organization to the plugins and code to layout and functionality. I have a number of remaining things to implement, and I’m hoping once all of those are finalized this will be a nice and fully fleshed-out one-stop-shop for most things modding.
+
+## Assistance – Feedback
+
+Though I’m spear-heading this movement, I know very well that I need help, can’t quite do all of this alone.
+
+
+
+First and foremost, feedback will help me improve this website tremendously. Any sort of UX issues, any sort of requests, any bugs that are found, please reach out to me and I’ll handle it. I’m gonna incorporate some form thing to send the site an email about it eventually, but for now, plop into the Modding Den (link on the right!) and find Vandy, tell me what’s up.
+
+## Assistance – Writing
+
+And, of course – I need writers! I don’t know literally every single thing about modding, I’ve struck my specific niche and I can write about that fine, but I can’t write about everything. If you would like to get involved and help out with writing tutorials, please please do, this is a community project and the more hands on-deck the better.
+
+
+
+To get started, just press “Register” on the right-hand side, and then find Vandy/me on Discord and let me know that you want to write tutorials. I’ll give you access to creating tutorial drafts and whenever you’re done, I’ll publish ’em (you keep creds and all, just for the sake of making sure the tutorials are PG-13 and what not). When writing it, please select the proper “category” for the tutorial – if you’re unsure which, just contact me.
+
+## Privacy
+
+To read this site’s privacy policy, [check here.](https://tw-modding.com/privacy-policy/)
+
+
+
+<!--EndFragment-->
