@@ -84,7 +84,6 @@ export default () => (
               }
               frontmatter {
                 title
-                author
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
               }
