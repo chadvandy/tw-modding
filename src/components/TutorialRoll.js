@@ -58,7 +58,7 @@ class TutorialRoll extends React.Component {
   }
 }
 
-BlogRoll.propTypes = {
+TutorialRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -91,6 +91,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data, count) => <TutorialRoll data={data} count={count} />}
   />
 )
