@@ -12,6 +12,7 @@ export const TutorialTemplate = ({
   description,
   tags,
   title,
+  author,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -24,6 +25,9 @@ export const TutorialTemplate = ({
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
+            </h1>
+            <h1 className="column is-10 is-offset-1">
+                {author}
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
@@ -51,6 +55,7 @@ TutorialTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  author: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -74,6 +79,7 @@ const Tutorial = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        author={post.frontmatter.author}
       />
     </Layout>
   )
@@ -95,6 +101,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        author
         description
         tags
       }

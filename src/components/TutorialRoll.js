@@ -38,6 +38,7 @@ class TutorialRoll extends React.Component {
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
+                      {post.frontmatter.author}
                       {post.frontmatter.date}
                     </span>
                   </p>
@@ -83,6 +84,7 @@ export default () => (
               }
               frontmatter {
                 title
+                author
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
               }
