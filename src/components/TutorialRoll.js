@@ -35,7 +35,7 @@ class TutorialRoll extends React.Component {
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
-                      {post.frontmatter.author}
+                      {/* {post.frontmatter.author} */}
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
